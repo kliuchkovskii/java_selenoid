@@ -25,3 +25,7 @@ publishing {
         }
     }
 }
+
+dependencies {
+    compile group: 'com.codeborne', name: 'selenide', version: '5.12.2'
+}
