@@ -25,7 +25,8 @@ publishing {
 
 dependencies {
     compile(
-            "com.codeborne:selenide:5.3.0",
-            "io.qameta.allure:allure-selenide:2.12.1"
+            "com.codeborne:selenide:5.12.2",
+            "io.qameta.allure:allure-selenide:2.13.3"
     )
+    testCompile group: 'org.testng', name: 'testng', version: '7.1.0'
 }
