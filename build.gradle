@@ -30,3 +30,9 @@ dependencies {
     )
     testCompile group: 'org.testng', name: 'testng', version: '7.1.0'
 }
+
+test {
+    useTestNG {
+        useDefaultListeners = true
+    }
+}
